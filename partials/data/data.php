@@ -17,3 +17,25 @@ Passare come parametri GET name, mail e age e verificare (cercando i metodi che 
 - che age sia un numero.
 -Se tutto è ok stampare “Accesso riuscito”, altrimenti “Accesso negato”
 SUPER BONUS: Personalizzare l'avviso di accesso negato con la motivazione. es: ("Accesso negato: mail non valida") -->
+
+<?php
+
+$class = [
+    [
+        'Nome' => 'Giuseppe',
+        'Cognome' => 'Pisani',
+        'Voti' => [8, 10, 9]
+    ],
+    [
+        'Nome' => 'Giorgio',
+        'Cognome' => 'Andrei',
+        'Voti' => [5, 6, 8]
+    ],
+    [
+        'Nome' => 'Pasquale',
+        'Cognome' => 'Raso',
+        'Voti' => [2, 6, 6]
+    ]
+];
+
+?>

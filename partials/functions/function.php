@@ -9,3 +9,13 @@
     };
     return $arr;
 }
+
+
+function medium($array)
+{
+    $sum = 0;
+    foreach ($array as $vote) {
+        $sum += $vote;
+    }
+    return $sum / count($array);
+}

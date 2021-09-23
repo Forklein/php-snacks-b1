@@ -22,7 +22,16 @@ include_once './partials/functions/function.php';
             <?php endforeach; ?>
         </ul>
     </section>
-
+    <section>
+        <ul>
+            <?php foreach ($class as $student) : ?>
+                <li>
+                    <?php echo $student['Nome'] . ' ' . $student['Cognome'] . ' ' . 'Voto medio ' . medium($student['Voti']) ?>
+                </li>
+            <?php endforeach; ?>
+            <?php var_dump($_GET) ?>
+        </ul>
+    </section>
 </body>
 
 </html>
